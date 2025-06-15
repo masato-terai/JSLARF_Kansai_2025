@@ -4,7 +4,7 @@
 <img src="qrcode.png" alt="QR code" width="200">
 
 ## Access to the slides with the following link
-[Click this link]()
+[Click this link](https://masato-terai.github.io/JSLARF_Kansai_2025/#/title-slide)
 
 **Author:** 
 - Masato Terai (Aichi University of Technology, Japan)
