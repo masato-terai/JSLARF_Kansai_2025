@@ -1,4 +1,6 @@
 # This is a temporary repository for a presentation at J-SLARF Kansai 2025.
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=masato-terai.JSLARF_Kansai_2025)
+
 
 <h2>QR code for this website</h2>
 <img src="qrcode.png" alt="QR code" width="200">
@@ -14,4 +16,3 @@
 - x: https://x.com/uniquefreshman
 - gmail: terai.research@gmail.com
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=masato-terai.JSLARF_Kansai_2025)
