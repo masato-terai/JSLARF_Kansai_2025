@@ -1,0 +1,203 @@
+---
+title: "The Influence of Task Types on the Activation of Object Color Information During Language Processing"
+author: "Masato Terai (Aichi University of Technology)"
+date: today
+date-format: "DD-MM-YYYY"
+last-modified: true
+format: 
+  revealjs:
+    theme: simple
+    slide-number: true
+scrollable: true
+#logo: material/maron.png
+title-slide-attributes:
+  data-background-image: material/maron.png, material/heart.png
+  data-background-size: 15%, 65%
+  data-background-opacity: "0.5"
+  data-background-position: 5% 98%, center
+---
+
+```{r, include=FALSE}
+rm(list = ls()) 
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include = FALSE}
+library(rstan)
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+```
+
+## Embodied (Grounded) Cognition 
+
+- Humans not only understand the lexical meaning of a word but also activate their accumulated sensory and motor experiences (e.g., seeing, touching) associated with that word (e.g., **Barsalou, 2008**).
+
+```{r echo=FALSE, out.width="80%"}
+#| fig-align: center
+knitr::include_graphics("material/lemon_boy.png")
+```
+
+## Activation of Color Information
+### Connell and Lynott (2009)
+
+- Activation of Object color information
+
+- Semantic Stroop task
+  1. Read a sentence (e.g., *Joe was excited to see a bear in the woods.*)
+  2. A keyword is presented in color ( <font color="brown">**bear**</font> )
+  3. Answer the color of the font
+- [Demo video](https://youtu.be/WFRbEMdWlXY)
+
+## Connell and Lynott (2009)
+- Reaction times were faster when the indicated color matched the font color, compared to when they mismatched.
+
+- Sentence (*Joe was excited to see a bear in the woods*): 🐻
+- Matched: word ( <font color="brown">**bear**</font> ): **Faster**
+- Mismatched: word ( <font color="green">**bear**</font> ): **Slower**
+
+## Difference Between Learning and Acquisition
+
+- Context of English Learning in Japan
+  - **English** is primarily learned in classrooms as a foreign language.
+  - **Japanese** is naturally acquired
+
+- Activation of objects shape is **reduced** in second language processing (e.g., Chen et al., 2020; Norman & Peleg, 2022, 2023)
+
+![](material/acquisition_learning.png){width=100% height=100%}
+
+## Terai (2023)
+- Replicated Connell and Lynott (2009) in both the first and second language
+
+- Interaction of second language proficiency and typicality (in the second language)
+
+  <div style="border: #83cafc dashed 2px; font-size: 100%; padding: 15px;">Second language proficiency was operationalized using vocabulary size scores.</div>
+
+## Processing in Second Language
+### Terai (2024)
+- Word-level processing
+
+::: {layout-ncol=2}
+
+![Terai (2023)](material/sentence_experiment.png)
+
+![Terai (2024)](material/vocab_experiment.png)
+:::
+
+## Results
+- No notable Stroop effect
+
+  - Language was between subject design
+
+![](material/emplot.png){width=70% height=70%}
+
+## Influence of Task Types
+
+- Huettig et al. (2020)
+
+![](material/huettig_2020.png){width=100% height=100%}
+
+## Influence of Task Types
+
+- Huettig et al. (2020)
+
+  - Color information was activated **when a task supported the involvement**
+
+## The Study
+### Research Questions and Hypotheses
+<div style="border: #83cafc solid 2px; font-size: 100%; padding: 15px;">
+- Does the magnitude of reaction time differences between conditions (i.e., the Stroop effect) differ between the sentence-level and word-level task?
+
+    - Prediction：Sentence-level task shows larger Stroop effect
+</div>
+
+- Does this pattern differ between the native language and the foreign language?
+
+    - Prediction：L1 task will elicit larger Stroop effect regardless of word- or sentence-level.
+  
+## Analysis
+
+- Dependent Variable:
+RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
+
+  - Terai (2023): Sentence-level
+  
+  - Terai (2024): Word-level
+
+- Independent Variables:
+
+  - Task type (with/without sentence presentation)
+
+  - Typicality of font color (typical / atypical / unrelated)
+
+  - Interaction (task type × typicality of font color)
+
+  - Font color (red / white / green / brown)
+
+- Random Effects:
+
+  - Word: task type, typicality of font color, interaction, font color
+
+  - Participant: typicality of font color, font color
+
+## Results
+- A notable evidence for an interaction effect (**Task \* Typicality**), and main effect of **Task Type**.
+
+![](material/interaction_plot.png){width=70% height=70%}
+
+## Post-hoc Analysis
+- Estimated Marginal Means
+  
+  - There was evidence for a Stroop effect only in the sentence-level task.
+
+![](material/emmeans_plot.png){width=70% height=70%}
+
+- Bars: Median, 75%, and 95% intervals
+
+## Post-hoc Analysis
+- pd: *Probability of Direction*:
+
+  - The proportion of posterior samples that fall in the same direction (positive/negative) as the median.
+
+![](material/emmeans_table.png){width=100% height=100%}
+
+## Discussion
+### R.Q. 1
+- The extent of color simulation is influenced by task type.
+
+  - Tasks that provide prior contextual information promote greater simulation.
+
+  - Color simulation does not always (routinely) occur.
+
+### R.Q. 2
+- Task language showed no notable main effects or interactions with other variables.
+
+  - The effects of task type were consistent across both L1 and L2.
+
+## Limitations and Future Directions
+- Task type was not treated as a within-subject factor.
+
+  - The distribution of L2 proficiency varied across conditions.
+
+![](material/dist_vocab_plot.png){width=70% height=70%}
+
+# References
+- Barsalou, L. W. (2008). Grounded cognition. *Annual Review of Psychology, 59*, 617–645.
+
+- Chen, D., Wang, R., Zhang, J., & Liu, C. (2020). Perceptual representations in L1, L2 and L3 comprehension: Delayed sentence–picture verification. *Journal of Psycholinguistic Research, 49*(1), 41–57.
+
+- Connell, L., & Lynott, D. (2009). Is a bear white in the woods? Parallel representation of implied object color during language comprehension. *Psychonomic Bulletin & Review, 16*, 573–577.
+
+- Huettig, F., Guerra, E., & Helo, A. (2020). Towards understanding the task dependency of embodied language processing: The influence of colour during language vision interactions. *Journal of Cognition, 3*(1), 41, 1–19.
+
+- Norman, T., & Peleg, O. (2022). The reduced embodiment of a second language. *Bilingualism: Language and Cognition, 25*(3), 406–416.
+
+- Norman, T., & Peleg, O. (2023). Visual simulations in the two cerebral hemispheres: A bilingual perspective. *Brain and Language, 242*, 105291, 1-8.
+
+- Terai, M. (2023). Activation of Color Information in Second Language Comprehension, *Doctoral Dissertation*, Nagoya University.
+
+- Terai, M. (2024). Activation of Color in First and Second Language Vocabulary Processing, *The Japanese Society for Language Sciences 2024 Conference Handbook*, 32-35.
+
+# This is the end of the slides
