@@ -11,6 +11,7 @@
 
 **Author:** 
 - Masato Terai (Aichi University of Technology, Japan)
+  - Website: [https://sites.google.com/view/masatoterai/home](https://sites.google.com/view/masatoterai/home) 
 
 **Contact:**
 - gmail: terai.research@gmail.com
