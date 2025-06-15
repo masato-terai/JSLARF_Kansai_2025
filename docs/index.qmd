@@ -31,6 +31,24 @@ rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
 ```
 
+## My Research
+
+### Vocabulary learning
+
+- Tests
+
+  - Badger = ??
+  
+  - 穴熊 = ??
+  
+## My research
+
+- I can map the L2 and L1, but I have never seen a badger
+
+  - I want to investigate what readers mentally visualize from the letters
+
+    - Is there any difference between L1 and L2
+
 ## Embodied (Grounded) Cognition 
 
 - Humans not only understand the lexical meaning of a word but also activate their accumulated sensory and motor experiences (e.g., seeing, touching) associated with that word (e.g., **Barsalou, 2008**).
@@ -39,6 +57,19 @@ options(mc.cores = parallel::detectCores())
 #| fig-align: center
 knitr::include_graphics("material/lemon_boy.png")
 ```
+
+# What is the font color?
+
+<center>
+<span style="font-size: 700%; color: blue;">赤</span>
+<span style="font-size: 700%; color: white;">赤</span>
+<span style="font-size: 700%; color: red;">赤</span>
+</center>
+
+## Stroop Effect
+### Receiving inconsistent information causes inhibition.
+
+-   font color - meaning of the word
 
 ## Activation of Color Information
 ### Connell and Lynott (2009)
@@ -49,14 +80,16 @@ knitr::include_graphics("material/lemon_boy.png")
   1. Read a sentence (e.g., *Joe was excited to see a bear in the woods.*)
   2. A keyword is presented in color ( <font color="brown">**bear**</font> )
   3. Answer the color of the font
-- [Demo video](https://youtu.be/WFRbEMdWlXY)
 
 ## Connell and Lynott (2009)
 - Reaction times were faster when the indicated color matched the font color, compared to when they mismatched.
 
 - Sentence (*Joe was excited to see a bear in the woods*): 🐻
-- Matched: word ( <font color="brown">**bear**</font> ): **Faster**
-- Mismatched: word ( <font color="green">**bear**</font> ): **Slower**
+
+```{r echo=FALSE, out.width="80%"}
+#| fig-align: center
+knitr::include_graphics("material/stroop.png")
+```
 
 ## Difference Between Learning and Acquisition
 
