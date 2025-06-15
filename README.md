@@ -16,3 +16,7 @@
 - x: https://x.com/uniquefreshman
 - gmail: terai.research@gmail.com
 
+[![X](https://img.shields.io/badge/X-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/uniquefreshman)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:terai.research@gmail.com)
+[![Qiita](https://img.shields.io/badge/Qiita-55C500?style=flat&logo=qiita&logoColor=white)](https://qiita.com/masato-terai)
+
