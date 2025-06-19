@@ -44,9 +44,9 @@ options(mc.cores = parallel::detectCores())
 
 - I can map the L2 and L1, but I have never seen a badger
 
-  - I want to investigate what readers mentally visualize from the letters
+- Do readers mentally visualize from the letters?
 
-    - Is there any difference between L1 and L2
+  - Is there any difference between L1 and L2?
 
 ## Embodied (Grounded) Cognition 
 
@@ -57,11 +57,36 @@ options(mc.cores = parallel::detectCores())
 knitr::include_graphics("material/lemon_boy.png")
 ```
 
+## Various Approaches
+
+```{r echo=FALSE, out.width="80%"}
+#| fig-align: center
+knitr::include_graphics("material/fivesenses.png")
+```
+
+## Most words areground in vision?
+
+- Lynott et al. (2020)
+
+  - Approximately 40,000 English words were rated
+
+    - The raters were native English speakers
+
+```{r  echo=FALSE, out.width="150%", fig.cap="Retrieved From https://osf.io/46hjf"}
+knitr::include_graphics("material/PerceptualNorms-RatingScreen.png")
+```
+
+## Lynott et al. (2020)
+
+- Mean rating scores of **vision** were higher than other modalities
+
+![From Lynott et al. 2020](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13428-019-01316-z/MediaObjects/13428_2019_1316_Fig3_HTML.png?as=webp)
+
 # What is the font color?
 
 <center>
 <span style="font-size: 700%; color: blue;">赤</span>
-<!-- <span style="font-size: 700%; color: brown;">赤</span> -->
+<span style="font-size: 700%; color: white;">赤</span>
 <span style="font-size: 700%; color: red;">赤</span>
 </center>
 
@@ -218,6 +243,8 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 - Connell, L., & Lynott, D. (2009). Is a bear white in the woods? Parallel representation of implied object color during language comprehension. *Psychonomic Bulletin & Review, 16*, 573–577.
 
 - Huettig, F., Guerra, E., & Helo, A. (2020). Towards understanding the task dependency of embodied language processing: The influence of colour during language vision interactions. *Journal of Cognition, 3*(1), 41, 1–19.
+
+- Lynott, D., Connell, L., Brysbaert, M., Brand, J., & Carney, J. (2020). The Lancaster Sensorimotor Norms: multidimensional measures of perceptual and action strength for 40,000 English words. *Behavior research methods, 52*, 1271–1291.
 
 - Norman, T., & Peleg, O. (2022). The reduced embodiment of a second language. *Bilingualism: Language and Cognition, 25*(3), 406–416.
 
