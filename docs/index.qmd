@@ -9,7 +9,6 @@ format:
     theme: simple
     slide-number: true
 scrollable: true
-#logo: material/maron.png
 title-slide-attributes:
   data-background-image: material/maron.png, material/heart.png
   data-background-size: 15%, 65%
@@ -62,7 +61,7 @@ knitr::include_graphics("material/lemon_boy.png")
 
 <center>
 <span style="font-size: 700%; color: blue;">赤</span>
-<span style="font-size: 700%; color: white;">赤</span>
+<!-- <span style="font-size: 700%; color: brown;">赤</span> -->
 <span style="font-size: 700%; color: red;">赤</span>
 </center>
 
@@ -126,6 +125,8 @@ knitr::include_graphics("material/stroop.png")
 
 ![](material/emplot.png){width=70% height=70%}
 
+# Why?
+
 ## Influence of Task Types
 
 - Huettig et al. (2020)
@@ -140,16 +141,11 @@ knitr::include_graphics("material/stroop.png")
 
 ## The Study
 ### Research Questions and Hypotheses
-<div style="border: #83cafc solid 2px; font-size: 100%; padding: 15px;">
+
 - Does the magnitude of reaction time differences between conditions (i.e., the Stroop effect) differ between the sentence-level and word-level task?
 
     - Prediction：Sentence-level task shows larger Stroop effect
-</div>
 
-- Does this pattern differ between the native language and the foreign language?
-
-    - Prediction：L1 task will elicit larger Stroop effect regardless of word- or sentence-level.
-  
 ## Analysis
 
 - Dependent Variable:
@@ -197,14 +193,12 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 ![](material/emmeans_table.png){width=100% height=100%}
 
 ## Discussion
-### R.Q. 1
 - The extent of color simulation is influenced by task type.
 
   - Tasks that provide prior contextual information promote greater simulation.
 
   - Color simulation does not always (routinely) occur.
 
-### R.Q. 2
 - Task language showed no notable main effects or interactions with other variables.
 
   - The effects of task type were consistent across both L1 and L2.
