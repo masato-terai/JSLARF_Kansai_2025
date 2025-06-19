@@ -224,9 +224,12 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 
   - Color simulation does not always (routinely) occur.
 
-- Task language showed no notable main effects or interactions with other variables.
+::: {.callout-note}
+- Model with *Task Language* 
+- Task language showed no notable main effects or interactions with other variable.
 
   - The effects of task type were consistent across both L1 and L2.
+:::
 
 ## Limitations and Future Directions
 - Task type was not treated as a within-subject factor.
