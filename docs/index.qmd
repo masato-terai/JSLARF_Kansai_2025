@@ -72,7 +72,7 @@ knitr::include_graphics("material/fivesenses.png")
   
   - Scent (Olfaction): Reading scent-related words (e.g., cinnamon) increased activation in olfactory brain areas (González et al., 2006).
 
-## Most words areground in vision?
+## Most words are ground in vision?
 
 - Lynott et al. (2020)
 
