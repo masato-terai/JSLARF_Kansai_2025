@@ -1,0 +1,86 @@
+
+Hello. I'm Masato Terai from a University of Technology.  
+Let me begin with a brief introduction to my research.
+
+My primary interest lies in vocabulary learning. Typically, we introduce different learning methods to participants, who then learn new English words in either a control or experimental group.  
+We assess their retention of these words using tasks such as presenting an English word and asking for its translation into their first language, or vice versa—providing the L1 word and asking for the L2 equivalent.
+
+For example, I might map a second language word to a first language word, such as “badger” and 「アナグマ」.  
+However, while this kind of form-recall test helps determine whether learners can make L1-L2 connections, it doesn’t necessarily tell us what they truly understand. For instance, I know the Japanese translation of “badger,” but I’ve never actually seen one.
+
+This led me to consider what mental images or experiences readers access from written words or sounds.  
+Because I study second language acquisition, I became interested in how first and second language processing might differ—especially in terms of embodied cognition.
+
+Embodied cognition posits that humans do not process language in isolation but rather activate associated sensory and motor experiences.  
+For example, I’ve seen, touched, tasted, and smelled lemons. So when I read the word “lemon,” I can mentally visualize it—just from the letters L-E-M-O-N—without an actual lemon being present.  
+According to the embodied cognition framework, language processing involves more than just decoding letters or sounds.  
+This idea is especially important when considering how second language learners develop vocabulary knowledge.
+
+I focus on one particular sensory domain: vision—specifically, color.  
+My question is whether people can activate typical color information just by reading a word.
+
+For example, let me ask: Can you name the font color here? And what about this one?  
+Studies have shown that naming the font color is slower when the semantic meaning and font color mismatch.  
+Consider a kanji character meaning “red” shown in blue ink—this conflict delays response time. When both meaning and font color match, response times are faster. This phenomenon is known as the Stroop effect.
+
+Color interests me because it provides a tool for probing what people mentally represent when they read words like “lemon.”  
+If there’s either facilitation or interference depending on whether the font color matches the typical object color, we can infer that color simulation is occurring.
+
+Connell and Lynott (2009) investigated this using a semantic Stroop task.  
+Participants read a sentence like, “Joe was excited to see a bear in the woods.”  
+After the sentence disappeared, a key word from it—such as “bear”—was shown in brown (a typical bear color), an atypical color, or an unrelated one.  
+Participants were asked to name the font color. Their results showed that reaction times were faster when the color was typical—like brown—than when it was unrelated, such as green.
+
+This implies that even without an explicit mention of “brown,” readers activated that color based on context and their conceptual knowledge.  
+However, such findings cannot be directly generalized to second language processing, because of the distinction between language learning and language acquisition.
+
+Acquisition often leads to deeper, more embodied connections because it involves real-life experiences.  
+In Japan, English is often taught in classroom settings, which limits the chance for learners to form embodied links between English forms and real-world experiences.  
+As a result, the connection between form and meaning in a second language is usually weaker.
+
+In T.A. 2023, a study I presented at J-WASA, I replicated Connell and Lynott’s experiment in both the first and second languages.  
+Interestingly, the second language condition showed a moderating effect of proficiency: more proficient learners were more likely to show color activation.  
+This suggests that lower-proficiency learners may not yet have developed strong enough form-concept connections to engage in embodied processing.
+
+The next step was to test whether embodied processing still occurs in the absence of contextual support.  
+In the 2024 study, instead of sentences, we simply presented words and measured Stroop effects.  
+In this minimal context condition, neither the first nor second language showed any significant Stroop effect.
+
+T.A. 2023 used a between-subjects design: different groups performed tasks in either L1 or L2.  
+But in T.A. 2024, the same participants performed tasks in both languages.  
+Despite this improvement in design, we still found no interaction between language and task, and no Stroop effect at the word level.  
+This contrasts with the sentence-level condition where the Stroop effect was observed—suggesting that contextual richness is key to activating embodied representations.
+
+This idea is consistent with findings from Huettig (2020).  
+In that study, participants were exposed to either black-and-white or color images while listening to sentences.  
+Only in the color image condition did participants show gaze patterns consistent with embodied activation—for example, looking more at a green frog after hearing “spinach,” a typically green vegetable.
+
+This supports the idea that embodied processing is not automatic; it depends on task design and contextual cues.
+
+Based on this, I asked:  
+Does the size of the Stroop effect differ between sentence-level and word-level tasks?  
+I predicted that sentence-level tasks would show stronger Stroop effects due to the richer context.
+
+I combined data from T.A. 2023 and T.A. 2024 and conducted a Bayesian hierarchical analysis.  
+I examined whether reaction time differences between typical and unrelated color conditions varied depending on task type.  
+Results showed a main effect of task and an interaction between task and typicality.
+
+Specifically, sentence-level tasks elicited faster responses overall and larger differences between color conditions.  
+In contrast, word-level tasks showed nearly identical response patterns across typical, atypical, and unrelated colors.
+
+A post-hoc analysis confirmed that the typical vs. unrelated color comparison in the sentence-level task showed a credible difference (the interval did not include zero), suggesting stronger simulation.  
+In the word-level task, the distributions were centered around zero, suggesting little to no simulation.
+
+Thus, to answer the first research question:  
+The degree of color simulation is influenced by task type, with sentence-level tasks—those that provide contextual cues—promoting more robust simulation.
+
+There was no significant effect of language (L1 vs. L2), nor interaction between language and task.  
+This supports a weak embodiment account: embodied processing is not always activated, but rather, it occurs selectively—depending on the task’s design and contextual richness.
+
+Finally, I would like to note some limitations.  
+Because T.A. 2023 and T.A. 2024 used separate participant groups and designs, task type was not a within-subjects factor.  
+Also, L2 proficiency varied between studies—higher in the sentence-level task and lower in the word-level task.  
+These differences may have influenced the results.  
+In future research, I plan to conduct within-subjects experiments, although these designs are more challenging to implement.
+
+That concludes my presentation. Thank you very much for listening.

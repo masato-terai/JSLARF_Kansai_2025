@@ -64,6 +64,14 @@ knitr::include_graphics("material/lemon_boy.png")
 knitr::include_graphics("material/fivesenses.png")
 ```
 
+## Embodied Cognition Research
+
+- Experimental studies have found that linguistic processing involves non-linguistic information:
+
+  - Shape (Vision): Reading "Eagle in the sky" elicited faster reaction times to the picture of the eagle with its wings outstretched than with its wings folded (Zwaan et al., 2002).
+  
+  - Scent (Olfaction): Reading scent-related words (e.g., cinnamon) increased activation in olfactory brain areas (González et al., 2006).
+
 ## Most words areground in vision?
 
 - Lynott et al. (2020)
@@ -116,10 +124,6 @@ knitr::include_graphics("material/stroop.png")
 ```
 
 ## Difference Between Learning and Acquisition
-
-- Context of English Learning in Japan
-  - **English** is primarily learned in classrooms as a foreign language.
-  - **Japanese** is naturally acquired
 
 - Activation of objects shape is **reduced** in second language processing (e.g., Chen et al., 2020; Norman & Peleg, 2022, 2023)
 
@@ -245,6 +249,8 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 
 - Connell, L., & Lynott, D. (2009). Is a bear white in the woods? Parallel representation of implied object color during language comprehension. *Psychonomic Bulletin & Review, 16*, 573–577.
 
+- González, J., Barros-Loscertales, A., Pulvermüller, F., Meseguer, V., Sanjuán, A., Belloch, V., & Ávila, C. (2006). Reading cinnamon activates olfactory brain regions. *Neuroimage, 32*(2), 906–912.
+
 - Huettig, F., Guerra, E., & Helo, A. (2020). Towards understanding the task dependency of embodied language processing: The influence of colour during language vision interactions. *Journal of Cognition, 3*(1), 41, 1–19.
 
 - Lynott, D., Connell, L., Brysbaert, M., Brand, J., & Carney, J. (2020). The Lancaster Sensorimotor Norms: multidimensional measures of perceptual and action strength for 40,000 English words. *Behavior research methods, 52*, 1271–1291.
@@ -256,5 +262,7 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 - Terai, M. (2023). Activation of Color Information in Second Language Comprehension, *Doctoral Dissertation*, Nagoya University.
 
 - Terai, M. (2024). Activation of Color in First and Second Language Vocabulary Processing, *The Japanese Society for Language Sciences 2024 Conference Handbook*, 32-35.
+
+- Zwaan, R. A., Stanfield, R. A., & Yaxley, R. H. (2002). Language comprehenders mentally represent the shapes of objects. *Psychological Science, 13*(2), 168-171.
 
 # This is the end of the slides
