@@ -336,7 +336,7 @@ Masato Terai (Aichi University of Technology)
 </div>
 </div>
 
-  <p class="date">20-06-2025</p>
+  <p class="date">24-06-2025</p>
 </section>
 <section id="my-research" class="slide level2">
 <h2>My Research</h2>
@@ -385,10 +385,7 @@ Masato Terai (Aichi University of Technology)
 <ul>
 <li><p>Lynott et al.&nbsp;(2020)</p>
 <ul>
-<li><p>Approximately 40,000 English words were rated</p>
-<ul>
-<li>The raters were native English speakers</li>
-</ul></li>
+<li>40,000 English words were rated by native speakers</li>
 </ul></li>
 </ul>
 
@@ -437,10 +434,13 @@ Masato Terai (Aichi University of Technology)
 <img data-src="material/stroop.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
 <section id="difference-between-learning-and-acquisition" class="slide level2">
 <h2>Difference Between Learning and Acquisition</h2>
+<p><img data-src="material/acquisition_learning.png" style="width:100.0%;height:100.0%"></p>
+</section>
+<section id="difference-between-learning-and-acquisition-1" class="slide level2">
+<h2>Difference Between Learning and Acquisition</h2>
 <ul>
 <li>Activation of objects shape is <strong>reduced</strong> in second language processing (e.g., Chen et al., 2020; Norman &amp; Peleg, 2022, 2023)</li>
 </ul>
-<p><img data-src="material/acquisition_learning.png" style="width:100.0%;height:100.0%"></p>
 </section>
 <section id="terai-2023" class="slide level2">
 <h2>Terai (2023)</h2>
@@ -451,48 +451,6 @@ Masato Terai (Aichi University of Technology)
 Second language proficiency was operationalized using vocabulary size scores.
 </div></li>
 </ul>
-</section>
-<section id="processing-in-second-language" class="slide level2">
-<h2>Processing in Second Language</h2>
-<h3 id="terai-2024">Terai (2024)</h3>
-<ul>
-<li>Word-level processing</li>
-</ul>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="material/sentence_experiment.png"></p>
-<figcaption>Terai (2023)</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="material/vocab_experiment.png"></p>
-<figcaption>Terai (2024)</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="results" class="slide level2">
-<h2>Results</h2>
-<ul>
-<li><p>No notable Stroop effect</p>
-<ul>
-<li>Language was between subject design</li>
-</ul></li>
-</ul>
-<p><img data-src="material/emplot.png" style="width:70.0%;height:70.0%"></p>
-</section></section>
-<section>
-<section id="why" class="title-slide slide level1 center">
-<h1>Why?</h1>
-
 </section>
 <section id="influence-of-task-types" class="slide level2">
 <h2>Influence of Task Types</h2>
@@ -520,32 +478,57 @@ Second language proficiency was operationalized using vocabulary size scores.
 </ul></li>
 </ul>
 </section>
+<section id="terai-2024" class="slide level2">
+<h2>Terai (2024)</h2>
+<ul>
+<li>Word-level processing</li>
+</ul>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="material/sentence_experiment.png"></p>
+<figcaption>Terai (2023)</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="material/vocab_experiment.png"></p>
+<figcaption>Terai (2024)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="analysis" class="slide level2">
 <h2>Analysis</h2>
+<h3 id="bayesian-mixed-effects-models">Bayesian mixed-effects models</h3>
 <ul>
-<li><p>Dependent Variable: RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)</p>
+<li><p>Dependent Variable:</p>
+<ul>
+<li><p>RT (reaction time) of the Stroop task</p>
 <ul>
 <li><p>Terai (2023): Sentence-level</p></li>
 <li><p>Terai (2024): Word-level</p></li>
+</ul></li>
 </ul></li>
 <li><p>Independent Variables:</p>
 <ul>
 <li><p>Task type (with/without sentence presentation)</p></li>
 <li><p>Typicality of font color (typical / atypical / unrelated)</p></li>
 <li><p>Interaction (task type × typicality of font color)</p></li>
-<li><p>Font color (red / white / green / brown)</p></li>
 </ul></li>
-<li><p>Random Effects:</p>
-<ul>
-<li><p>Word: task type, typicality of font color, interaction, font color</p></li>
-<li><p>Participant: typicality of font color, font color</p></li>
-</ul></li>
+<li><p>Random Effects</p></li>
 </ul>
 </section>
-<section id="results-1" class="slide level2">
+<section id="results" class="slide level2">
 <h2>Results</h2>
 <ul>
-<li>A notable evidence for an interaction effect (<strong>Task * Typicality</strong>), and main effect of <strong>Task Type</strong>.</li>
+<li>A notable evidence for an interaction effect (<strong>Task * Typicality</strong>)</li>
 </ul>
 <p><img data-src="material/interaction_plot.png" style="width:70.0%;height:70.0%"></p>
 </section>
@@ -575,10 +558,10 @@ Second language proficiency was operationalized using vocabulary size scores.
 <section id="discussion" class="slide level2">
 <h2>Discussion</h2>
 <ul>
-<li><p>The extent of color simulation is influenced by task type.</p>
+<li><p>The extent of color activation is influenced by task type.</p>
 <ul>
-<li><p>Tasks that provide prior contextual information promote greater simulation.</p></li>
-<li><p>Color simulation does not always (routinely) occur.</p></li>
+<li><p>Tasks that provide prior contextual information promote greater activation</p></li>
+<li><p>Color activation does not always (routinely) occur</p></li>
 </ul></li>
 </ul>
 <div class="callout callout-note callout-titled callout-style-default">
@@ -600,19 +583,32 @@ Second language proficiency was operationalized using vocabulary size scores.
 </div>
 </div>
 </div>
+</section></section>
+<section>
+<section id="why-is-this-important" class="title-slide slide level1 center">
+<h1>Why is this important?</h1>
+
 </section>
-<section id="limitations-and-future-directions" class="slide level2">
-<h2>Limitations and Future Directions</h2>
+<section id="implication-for-embodied-research" class="slide level2">
+<h2>Implication for embodied research</h2>
 <ul>
-<li><p>Task type was not treated as a within-subject factor.</p>
+<li><p>“To what extent does embodied language processing occur routinely?” (Ostarek &amp; Huettig, 2019)</p>
 <ul>
-<li>The distribution of L2 proficiency varied across conditions.</li>
+<li><p>Embodied knowledge might not be routinely activated</p>
+<ul>
+<li><p>Huettig et al.: Word / Picture</p></li>
+<li><p>This research: Word / Sentence</p></li>
+</ul></li>
 </ul></li>
 </ul>
-<p><img data-src="material/dist_vocab_plot.png" style="width:70.0%;height:70.0%"></p>
 </section></section>
-<section id="references" class="title-slide slide level1 center">
-<h1>References</h1>
+<section>
+<section id="thank-you-for-listening" class="title-slide slide level1 center">
+<h1>Thank you for listening!</h1>
+<p><img data-src="material/smile.png" style="width:60.0%;height:60.0%"></p>
+</section>
+<section id="references" class="slide level2">
+<h2>References</h2>
 <ul>
 <li><p>Barsalou, L. W. (2008). Grounded cognition. <em>Annual Review of Psychology, 59</em>, 617–645.</p></li>
 <li><p>Chen, D., Wang, R., Zhang, J., &amp; Liu, C. (2020). Perceptual representations in L1, L2 and L3 comprehension: Delayed sentence–picture verification. <em>Journal of Psycholinguistic Research, 49</em>(1), 41–57.</p></li>
@@ -622,12 +618,12 @@ Second language proficiency was operationalized using vocabulary size scores.
 <li><p>Lynott, D., Connell, L., Brysbaert, M., Brand, J., &amp; Carney, J. (2020). The Lancaster Sensorimotor Norms: multidimensional measures of perceptual and action strength for 40,000 English words. <em>Behavior research methods, 52</em>, 1271–1291.</p></li>
 <li><p>Norman, T., &amp; Peleg, O. (2022). The reduced embodiment of a second language. <em>Bilingualism: Language and Cognition, 25</em>(3), 406–416.</p></li>
 <li><p>Norman, T., &amp; Peleg, O. (2023). Visual simulations in the two cerebral hemispheres: A bilingual perspective. <em>Brain and Language, 242</em>, 105291, 1-8.</p></li>
+<li><p>Ostarek, M., &amp; Huettig, F. (2019). Six challenges for embodiment research. <em>Current Directions in Psychological Science, 28</em>(6), 593-599.</p></li>
 <li><p>Terai, M. (2023). Activation of Color Information in Second Language Comprehension, <em>Doctoral Dissertation</em>, Nagoya University.</p></li>
 <li><p>Terai, M. (2024). Activation of Color in First and Second Language Vocabulary Processing, <em>The Japanese Society for Language Sciences 2024 Conference Handbook</em>, 32-35.</p></li>
 <li><p>Zwaan, R. A., Stanfield, R. A., &amp; Yaxley, R. H. (2002). Language comprehenders mentally represent the shapes of objects. <em>Psychological Science, 13</em>(2), 168-171.</p></li>
 </ul>
-</section>
-
+</section></section>
 <section id="this-is-the-end-of-the-slides" class="title-slide slide level1 center">
 <h1>This is the end of the slides</h1>
 <div class="footer footer-default">

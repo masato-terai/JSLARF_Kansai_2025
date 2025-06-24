@@ -76,9 +76,7 @@ knitr::include_graphics("material/fivesenses.png")
 
 - Lynott et al. (2020)
 
-  - Approximately 40,000 English words were rated
-
-    - The raters were native English speakers
+  - 40,000 English words were rated by native speakers
 
 ```{r  echo=FALSE, out.width="150%", fig.cap="Retrieved From https://osf.io/46hjf"}
 knitr::include_graphics("material/PerceptualNorms-RatingScreen.png")
@@ -125,9 +123,11 @@ knitr::include_graphics("material/stroop.png")
 
 ## Difference Between Learning and Acquisition
 
-- Activation of objects shape is **reduced** in second language processing (e.g., Chen et al., 2020; Norman & Peleg, 2022, 2023)
-
 ![](material/acquisition_learning.png){width=100% height=100%}
+
+## Difference Between Learning and Acquisition
+
+- Activation of objects shape is **reduced** in second language processing (e.g., Chen et al., 2020; Norman & Peleg, 2022, 2023)
 
 ## Terai (2023)
 - Replicated Connell and Lynott (2009) in both the first and second language
@@ -135,26 +135,6 @@ knitr::include_graphics("material/stroop.png")
 - Interaction of second language proficiency and typicality (in the second language)
 
   <div style="border: #83cafc dashed 2px; font-size: 100%; padding: 15px;">Second language proficiency was operationalized using vocabulary size scores.</div>
-
-## Processing in Second Language
-### Terai (2024)
-- Word-level processing
-
-::: {layout-ncol=2}
-
-![Terai (2023)](material/sentence_experiment.png)
-
-![Terai (2024)](material/vocab_experiment.png)
-:::
-
-## Results
-- No notable Stroop effect
-
-  - Language was between subject design
-
-![](material/emplot.png){width=70% height=70%}
-
-# Why?
 
 ## Influence of Task Types
 
@@ -175,14 +155,27 @@ knitr::include_graphics("material/stroop.png")
 
     - Prediction：Sentence-level task shows larger Stroop effect
 
+## Terai (2024)
+- Word-level processing
+
+::: {layout-ncol=2}
+
+![Terai (2023)](material/sentence_experiment.png)
+
+![Terai (2024)](material/vocab_experiment.png)
+:::
+
 ## Analysis
 
-- Dependent Variable:
-RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
+### Bayesian mixed-effects models
 
-  - Terai (2023): Sentence-level
+- Dependent Variable: 
+
+  - RT (reaction time) of the Stroop task
+
+    - Terai (2023): Sentence-level
   
-  - Terai (2024): Word-level
+    - Terai (2024): Word-level
 
 - Independent Variables:
 
@@ -192,16 +185,10 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 
   - Interaction (task type × typicality of font color)
 
-  - Font color (red / white / green / brown)
-
-- Random Effects:
-
-  - Word: task type, typicality of font color, interaction, font color
-
-  - Participant: typicality of font color, font color
+- Random Effects
 
 ## Results
-- A notable evidence for an interaction effect (**Task \* Typicality**), and main effect of **Task Type**.
+- A notable evidence for an interaction effect (**Task \* Typicality**)
 
 ![](material/interaction_plot.png){width=70% height=70%}
 
@@ -222,11 +209,11 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 ![](material/emmeans_table.png){width=100% height=100%}
 
 ## Discussion
-- The extent of color simulation is influenced by task type.
+- The extent of color activation is influenced by task type.
 
-  - Tasks that provide prior contextual information promote greater simulation.
+  - Tasks that provide prior contextual information promote greater activation
 
-  - Color simulation does not always (routinely) occur.
+  - Color activation does not always (routinely) occur
 
 ::: {.callout-note}
 - Model with *Task Language* 
@@ -235,14 +222,24 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
   - The effects of task type were consistent across both L1 and L2.
 :::
 
-## Limitations and Future Directions
-- Task type was not treated as a within-subject factor.
+# Why is this important?
 
-  - The distribution of L2 proficiency varied across conditions.
+## Implication for embodied research
 
-![](material/dist_vocab_plot.png){width=70% height=70%}
+- "To what extent does embodied language processing occur routinely?" (Ostarek & Huettig, 2019)
 
-# References
+  - Embodied knowledge might not be routinely activated
+
+    - Huettig et al.: Word / Picture
+    
+    - This research: Word / Sentence
+
+# Thank you for listening!
+![](material/smile.png){width=60% height=60%}
+
+
+
+## References
 - Barsalou, L. W. (2008). Grounded cognition. *Annual Review of Psychology, 59*, 617–645.
 
 - Chen, D., Wang, R., Zhang, J., & Liu, C. (2020). Perceptual representations in L1, L2 and L3 comprehension: Delayed sentence–picture verification. *Journal of Psycholinguistic Research, 49*(1), 41–57.
@@ -258,6 +255,8 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 - Norman, T., & Peleg, O. (2022). The reduced embodiment of a second language. *Bilingualism: Language and Cognition, 25*(3), 406–416.
 
 - Norman, T., & Peleg, O. (2023). Visual simulations in the two cerebral hemispheres: A bilingual perspective. *Brain and Language, 242*, 105291, 1-8.
+
+- Ostarek, M., & Huettig, F. (2019). Six challenges for embodiment research. *Current Directions in Psychological Science, 28*(6), 593-599.
 
 - Terai, M. (2023). Activation of Color Information in Second Language Comprehension, *Doctoral Dissertation*, Nagoya University.
 
