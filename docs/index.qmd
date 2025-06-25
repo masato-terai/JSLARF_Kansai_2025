@@ -46,7 +46,7 @@ options(mc.cores = parallel::detectCores())
 :::
 
 ::: {.column width="45%"}
-<img src=/material/ssla.png width="700" height="400" style="border-radius: 0%;">
+<img src=material/ssla.png width="700" height="400" style="border-radius: 0%;">
 :::
 
 :::
