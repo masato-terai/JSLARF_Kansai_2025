@@ -32,6 +32,10 @@ options(mc.cores = parallel::detectCores())
 
 ## My Research
 
+:::{.columns}
+
+::: {.column width="55%"}
+
 ### Vocabulary learning
 
 - Tests
@@ -39,10 +43,21 @@ options(mc.cores = parallel::detectCores())
   - Badger = ??
   
   - 穴熊 = ??
-  
-## My research
+:::
 
-- I can map the L2 and L1, but I have never seen a badger
+::: {.column width="45%"}
+<img src=/material/ssla.png width="700" height="400" style="border-radius: 0%;">
+:::
+
+:::
+
+## My Research
+
+- I know that “穴熊” means “badger,” but I’ve never seen one
+
+- **What is actually understood** is also important
+
+## My Research
 
 - Do readers mentally visualize from the letters?
 
@@ -99,7 +114,7 @@ knitr::include_graphics("material/PerceptualNorms-RatingScreen.png")
 ## Stroop Effect
 ### Receiving inconsistent information causes inhibition.
 
--   font color - meaning of the word
+- The presence of the Stroop effect is evidence of color activation. 
 
 ## Activation of Color Information
 ### Connell and Lynott (2009)
@@ -195,8 +210,6 @@ knitr::include_graphics("material/stroop.png")
 ## Post-hoc Analysis
 - Estimated Marginal Means
   
-  - There was evidence for a Stroop effect only in the sentence-level task.
-
 ![](material/emmeans_plot.png){width=70% height=70%}
 
 - Bars: Median, 75%, and 95% intervals
@@ -222,18 +235,6 @@ knitr::include_graphics("material/stroop.png")
   - The effects of task type were consistent across both L1 and L2.
 :::
 
-# Why is this important?
-
-## Implication for embodied research
-
-- "To what extent does embodied language processing occur routinely?" (Ostarek & Huettig, 2019)
-
-  - Embodied knowledge might not be routinely activated
-
-    - Huettig et al.: Word / Picture
-    
-    - This research: Word / Sentence
-
 # Thank you for listening!
 ![](material/smile.png){width=60% height=60%}
 
@@ -255,8 +256,6 @@ knitr::include_graphics("material/stroop.png")
 - Norman, T., & Peleg, O. (2022). The reduced embodiment of a second language. *Bilingualism: Language and Cognition, 25*(3), 406–416.
 
 - Norman, T., & Peleg, O. (2023). Visual simulations in the two cerebral hemispheres: A bilingual perspective. *Brain and Language, 242*, 105291, 1-8.
-
-- Ostarek, M., & Huettig, F. (2019). Six challenges for embodiment research. *Current Directions in Psychological Science, 28*(6), 593-599.
 
 - Terai, M. (2023). Activation of Color Information in Second Language Comprehension, *Doctoral Dissertation*, Nagoya University.
 

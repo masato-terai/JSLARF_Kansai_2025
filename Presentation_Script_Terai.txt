@@ -2,7 +2,7 @@
 Hello. I'm Masato Terai from a University of Technology.  
 Let me begin with a brief introduction to my research.
 
-My primary interest lies in vocabulary learning. Typically, we introduce different learning methods to participants, who then learn new English words in either a control or experimental group.  
+My primary interest lies in vocabulary learning. Typically, I introduce different learning methods to participants, who then learn new English words in either a control or experimental group.  
 We assess their retention of these words using tasks such as presenting an English word and asking for its translation into their first language, or vice versa—providing the L1 word and asking for the L2 equivalent.
 
 For example, I might map a second language word to a first language word, such as “badger” and 「アナグマ」.  
