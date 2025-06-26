@@ -24,12 +24,6 @@ rm(list = ls())
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r, include = FALSE}
-library(rstan)
-rstan_options(auto_write = TRUE)
-options(mc.cores = parallel::detectCores())
-```
-
 ## My Research
 
 :::{.columns}
@@ -57,15 +51,9 @@ options(mc.cores = parallel::detectCores())
 
 - **What is actually understood** is also important
 
-## My Research
-
-- Do readers mentally visualize from the letters?
-
-  - Is there any difference between L1 and L2?
-
 ## Embodied (Grounded) Cognition 
 
-- Humans not only understand the lexical meaning of a word but also activate their accumulated sensory and motor experiences (e.g., seeing, touching) associated with that word (e.g., **Barsalou, 2008**).
+- Humans not only understand the lexical meaning of a word but also activate their accumulated sensory and motor experiences associated with that word (e.g., **Barsalou, 2008**).
 
 ```{r echo=FALSE, out.width="80%"}
 #| fig-align: center
@@ -80,12 +68,20 @@ knitr::include_graphics("material/fivesenses.png")
 ```
 
 ## Embodied Cognition Research
+- Shape (Vision): Reading "Eagle in the sky" elicited faster reaction times to the picture of the eagle with its wings outstretched than with its wings folded (Zwaan et al., 2002).
 
-- Experimental studies have found that linguistic processing involves non-linguistic information:
+::: {layout-ncol=2}
 
-  - Shape (Vision): Reading "Eagle in the sky" elicited faster reaction times to the picture of the eagle with its wings outstretched than with its wings folded (Zwaan et al., 2002).
-  
-  - Scent (Olfaction): Reading scent-related words (e.g., cinnamon) increased activation in olfactory brain areas (González et al., 2006).
+![Eagle in the sky.](material/eagle1.png)
+
+![Eagle in its nest.](material/eagle2.png)
+:::
+
+## Embodied Cognition Research
+
+- Scent (Olfaction): Reading scent-related words (e.g., cinnamon) increased activation in olfactory brain areas (González et al., 2006).
+
+# Which modality plays the most significant role?
 
 ## Most words are ground in vision?
 
@@ -151,17 +147,17 @@ knitr::include_graphics("material/stroop.png")
 
   <div style="border: #83cafc dashed 2px; font-size: 100%; padding: 15px;">Second language proficiency was operationalized using vocabulary size scores.</div>
 
-## Influence of Task Types
 
-- Huettig et al. (2020)
+# New question: Is it possible to activate the typical color of an object by reading a word without context?
+
+## Huettig et al. (2020)
 
 ![](material/huettig_2020.png){width=100% height=100%}
 
-## Influence of Task Types
+## Huettig et al. (2020)
 
-- Huettig et al. (2020)
+- Color information was activated **when a task supported the involvement**
 
-  - Color information was activated **when a task supported the involvement**
 
 ## The Study
 ### Research Questions and Hypotheses
@@ -214,19 +210,20 @@ knitr::include_graphics("material/stroop.png")
 
 - Bars: Median, 75%, and 95% intervals
 
-## Post-hoc Analysis
-- pd: *Probability of Direction*:
 
-  - The proportion of posterior samples that fall in the same direction (positive/negative) as the median.
+<!-- ## Post-hoc Analysis -->
+<!-- - pd: *Probability of Direction*: -->
 
-![](material/emmeans_table.png){width=100% height=100%}
+<!--   - The proportion of posterior samples that fall in the same direction (positive/negative) as the median. -->
+
+<!-- ![](material/emmeans_table.png){width=100% height=100%} -->
 
 ## Discussion
 - The extent of color activation is influenced by task type.
 
   - Tasks that provide prior contextual information promote greater activation
 
-  - Color activation does not always (routinely) occur
+  - Color activation does not always occur
 
 ::: {.callout-note}
 - Model with *Task Language* 
