@@ -99,6 +99,12 @@ knitr::include_graphics("material/PerceptualNorms-RatingScreen.png")
 
 ![From Lynott et al. 2020](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13428-019-01316-z/MediaObjects/13428_2019_1316_Fig3_HTML.png?as=webp)
 
+# 
+```{r echo=FALSE, out.width="80%"}
+#| fig-align: center
+knitr::include_graphics("material/color_kanji.png")
+```
+
 # What is the font color?
 
 <center>
@@ -123,6 +129,22 @@ knitr::include_graphics("material/PerceptualNorms-RatingScreen.png")
   3. Answer the color of the font
 
 ## Connell and Lynott (2009)
+
+- Two types of sentences
+
+  - e.g., *Joe was excited to see a bear in the woods*: **brown bear**
+
+  - e.g., *Joe was excited to see a bear at the North Pole*: **polar bear**
+
+- Three font colors
+
+  - typical color: *bear* in Brown
+  
+  - atypical color: *bear* in White
+
+  - unrelated color: *bear* in Green
+
+## Connell and Lynott (2009)
 - Reaction times were faster when the indicated color matched the font color, compared to when they mismatched.
 
 - Sentence (*Joe was excited to see a bear in the woods*): 🐻
@@ -132,6 +154,15 @@ knitr::include_graphics("material/PerceptualNorms-RatingScreen.png")
 knitr::include_graphics("material/stroop.png")
 ```
 
+## Connell and Lynott (2009)
+- There were no significant differences between the atypical and unrelated conditions.
+
+  - Readers activated only the typical color of an object.
+  
+    - *Joe was excited to see a bear in the woods*: 🐻
+
+    - *Joe was excited to see a bear at the North Pole*: 🐻
+  
 ## Difference Between Learning and Acquisition
 
 ![](material/acquisition_learning.png){width=100% height=100%}
@@ -145,8 +176,9 @@ knitr::include_graphics("material/stroop.png")
 
 - Interaction of second language proficiency and typicality (in the second language)
 
-  <div style="border: #83cafc dashed 2px; font-size: 100%; padding: 15px;">Second language proficiency was operationalized using vocabulary size scores.</div>
-
+::: {.callout-note}
+Second language proficiency was operationalized using vocabulary size scores.
+:::
 
 # New question: Is it possible to activate color information by reading a word without linguistic context?
 
@@ -158,14 +190,25 @@ knitr::include_graphics("material/stroop.png")
 
 - Color information was activated **when a task supported the involvement**
 
-
 ## The Study
-### Research Questions and Hypotheses
+### Research Questions
 
 - Does the magnitude of reaction time differences between conditions (i.e., the Stroop effect) differ between the sentence-level and word-level task?
 
-  - Prediction：Sentence-level task shows larger Stroop effect
+  - Task type: Effect of linguistic context
 
+## Lingustic context
+- e.g., 
+
+  - *Joe was excited to see a bear in the woods.*
+
+    - Stroop: *bear*
+    
+  - *The strawberry that Mark bought looked ready to eat.*
+
+    - Stroop: *strawberry*
+
+  
 ## Terai (2024)
 - Word-level processing
 
@@ -194,12 +237,13 @@ knitr::include_graphics("material/stroop.png")
 
   - Typicality of font color (typical / atypical / unrelated)
 
-  - Interaction (task type × typicality of font color)
+  - **Interaction (task type × typicality of font color)**
 
 - Random Effects
 
 ## Results
-- A notable evidence for an interaction effect (**Task \* Typicality**)
+
+- A notable evidence for a main effect of task types and an interaction effect (**Task \* Typicality**)
 
 ![](material/interaction_plot.png){width=70% height=70%}
 
@@ -210,7 +254,6 @@ knitr::include_graphics("material/stroop.png")
 
 - Bars: Median, 75%, and 95% intervals
 
-
 <!-- ## Post-hoc Analysis -->
 <!-- - pd: *Probability of Direction*: -->
 
@@ -219,8 +262,21 @@ knitr::include_graphics("material/stroop.png")
 <!-- ![](material/emmeans_table.png){width=100% height=100%} -->
 
 ## Discussion
+- On average, reaction times in the word-level task were faster than in the sentence-level task.
+
+- Conceptual processing:
+
+  - Sentence-level: deeper
+  
+  - Word-level: shallower
+
+- Font color was easier to focus on in the word-level task.
+
+## Discussion
 
 - Tasks that provide prior contextual information promote greater Stroop effect
+
+  - Strong evidence for activating **typical** color of an object
 
 ::: {.callout-note}
 - Model with *Task Language* 
@@ -231,7 +287,14 @@ knitr::include_graphics("material/stroop.png")
 
 - Color activation does not always occur
   
-  - The extent of color activation is influenced by task type, regardless of whether the language is L1 or L2.
+  - The extent of color activation is influenced by task type (linguistic contexts), regardless of whether the language is L1 or L2.
+
+::: {.callout-important}
+Color activation is not all-or-none. <br>
+In this study, there was no strong evidence supporting color activation in the word-level task with differences **large enough to be detected statistically.**
+:::
+
+# Next Question: How can I apply these findings to vocabulary learning studies?
 
 # Thank you for listening!
 ![](material/smile.png){width=60% height=60%}
